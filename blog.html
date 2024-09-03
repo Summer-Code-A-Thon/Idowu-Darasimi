@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body{
+    background-color: beige;
+}
+</style>
+<link rel="stylesheet" href="style.css">
+<title>Simtech</title>
+</head>
+<nav>
+    <div class="logo">Simtech</div>
+    <div class="nav-items">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>   
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+    </div>
+</nav>
+<body>
+  <h2>
+    My five year plan
+  </h2>
+<p>
+  In the first year of your web development journey, focus on laying a solid foundation. Begin by mastering the core technologies of web development. Start with HTML and CSS to understand the basics of structuring and styling web pages. Simultaneously, dive into JavaScript to gain proficiency in scripting and dynamic interactions. As you become comfortable with these technologies, explore modern JavaScript features and essential frameworks such as React or Vue.js, which are crucial for building interactive user interfaces.
+
+On the back-end side, choose a programming language like JavaScript with Node.js or Python with Flask/Django and begin learning server-side scripting and basic database management. Understanding version control with Git is also vital at this stage; learn how to manage your codebase with Git and GitHub to handle versioning and collaborate on projects effectively.
+
+Start applying your skills by working on small projects such as a personal portfolio or a simple to-do list application. This practical experience is invaluable and will help you build a portfolio that showcases your capabilities. If possible, seek internships or entry-level positions to gain real-world experience and learn from industry professionals. Engage with local tech communities and online forums to build your network, and consider finding a mentor who can offer guidance and support. <br> <br>
+<br>
+
+In the second year, aim to expand your skillset and deepen your understanding of web technologies. Delve into more advanced topics in front-end development, such as state management using Redux or Context API, and explore build tools like Webpack. On the back-end, develop your skills in building and consuming RESTful APIs and learn about authentication and authorization techniques. Familiarize yourself with deployment processes and cloud services like AWS or Heroku, and understand the basics of Continuous Integration and Continuous Deployment (CI/CD).
+
+At this stage, begin pursuing relevant certifications to validate your skills and make your resume stand out. Focus on enhancing your soft skills, such as communication and teamwork, which are crucial for career advancement. Build more complex projects that demonstrate your ability to handle advanced functionalities and integrations, and continuously update your portfolio with these new works.
+
+Networking remains a key component of your growth. Attend industry conferences and webinars, and continue to engage with online tech communities. Starting a blog or YouTube channel to share your learning experiences and tutorials can further increase your visibility and establish your presence in the field.
+<br>
+<br>
+By the third year, begin to specialize and deepen your expertise in specific areas of web development. Choose a niche, such as web security, UX/UI design, or mobile app development, and become proficient in it. Explore advanced topics like performance optimization and testing frameworks. If you’re not already in a mid-level role, aim to transition into one where you can take on more responsibilities and possibly begin leading projects.
+
+Consider branching into freelancing or consulting to broaden your experience and gain exposure to diverse projects. As you take on leadership roles, focus on mentoring junior developers and contributing to team success. Continue your education with advanced courses and stay updated with the latest industry trends to keep your skills current.
+<br><br>
+Entering the fourth year, focus on further specialization and innovation. Dive deeper into your chosen niche and work on innovative projects that push the boundaries of technology. If you’re aiming for a senior role, focus on gaining experience in areas such as technical strategy and architecture. Explore roles that involve product management or technical leadership, where you can influence product direction and development strategies.
+
+Building your industry influence is essential at this stage. Apply to speak at conferences or webinars, and write articles or papers for respected industry journals. Your goal is to establish yourself as a thought leader in your area of expertise. Continue to engage with professional communities and consider pursuing advanced degrees or specialized training if they align with your career goals.
+<br>
+<br>
+In the fifth year, you should be focusing on achieving leadership and making a significant impact within the industry. Pursue executive roles such as Engineering Manager, CTO, or Head of Development, where you can shape company strategy and drive technological innovation. Work on high-impact projects and contribute to defining industry standards.
+
+As you reach this level, it’s important to build a strong personal brand. Consider writing a book, launching a popular podcast, or leading influential projects. Continue to mentor emerging talent and develop educational resources to support the next generation of developers. Maintain a balanced lifestyle to ensure personal growth and satisfaction alongside your professional achievements.
+
+Throughout this five-year journey, regularly reflect on your progress and adjust your goals as needed. This plan will guide you through developing your technical skills, advancing your career, and making meaningful contributions to the web development field.
+
+This narrative should provide a comprehensive and engaging roadmap for your development as a web professional. Adjust the details based on your personal aspirations and evolving industry trends.
+
+
+
+
+
+</p>
+
+<footer>
+<h6 id="demo"></h6>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date(" sep 3, 2029 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</footer>
+</body>
+</html>
